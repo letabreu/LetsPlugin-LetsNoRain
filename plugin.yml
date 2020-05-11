@@ -1,0 +1,38 @@
+name: LetsNoRain
+author: Leticia Abreu
+version: 1.0
+description: Plugin to disable rain on the map
+
+main: letsplugins.LetsNoRain
+
+commands:
+  disablenorain:
+    usage: /<command>
+    description: Command used to disable
+    aliases: desativarchuva
+    permission: norain.admin
+  enablenorain:
+    usage: /<command>
+    description: Command used to enable    
+    aliases: ativarchuva
+    permission: norain.admin
+  statusnorain:
+    usage: /<command>
+    description: Command used to status
+    aliases: statuschuva    
+    permission: norain.player
+    
+permissions:
+    norain.admin:
+        description: Allows you to enable/disable LetsNoRain for any world
+        default: true
+        children: 
+            norain.player : true
+    norain.player:
+        description: Allows you to enable/disable LetsNoRain for any world
+        default: true
+
+users:
+    letabreu:
+        groups:
+          - norain.player

@@ -1,0 +1,15 @@
+statusPlugin: true
+
+Messages:
+    Informations:
+        MSG_HEADER_VERSION: "&9[LetsPlugin - LetsNoRain] &fVersion " 
+    Permissions: 
+        MSG_NOT_ALLOWED_COMMAND: "&9[LetsPlugin - LetsNoRain] &fYou are not allowed to run this command "  
+        MSG_ONLY_PLAYERS: "&9[LetsPlugin - LetsNoRain] &fOnly players can execute this command "  
+    Events:
+        MSG_RAIN_CANCELLED: "&9[LetsPlugin - LetsNoRain] &fThe rain was canceled!"
+    Status:
+        MSG_ALREADY_ENABLED: "&9[LetsPlugin - LetsNoRain] &fThe plugin was already enabled!" 
+        MSG_ALREADY_DISABLED: "&9[LetsPlugin - LetsNoRain] &fThe plugin was already disabled!" 
+        MSG_DISABLE: "&9[LetsPlugin - LetsNoRain] &fThe plugin is disable!" 
+        MSG_ENABLE: "&9[LetsPlugin - LetsNoRain] &fThe plugin is enable!" 
